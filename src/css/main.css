@@ -12,12 +12,14 @@ body {
 }
 
 #ramdon-button{
+    width: 30%;
     cursor: pointer;
     transition: all 0.3s ease;
     text-align: center;
     font-weight: bold;
     border-radius: 5px;
-    padding: 5px ;
+    padding: 10px ;
+    margin: 50px auto;
 }
 
 #ramdon-button:hover {
@@ -28,9 +30,10 @@ body {
 .cup-card{
     width: 100%;
     background-color: white;
-    padding: 10px;
+    padding: 20px;
 }
 
 .cup-name {
     font-weight: bold;
+    font-size: 25px;
 }
