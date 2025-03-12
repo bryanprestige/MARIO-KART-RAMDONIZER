@@ -1,0 +1,36 @@
+body {
+    max-width: 100%;    
+    max-height: 100%;
+    text-align: center;
+    font-family: 'karla', Courier, monospace;
+    background-image: url('../assets/background.png');
+    background-size: cover;
+}
+
+#background {
+    width: 320px;
+}
+
+#ramdon-button{
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px ;
+}
+
+#ramdon-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cup-card{
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+}
+
+.cup-name {
+    font-weight: bold;
+}
